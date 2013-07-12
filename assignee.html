@@ -1,0 +1,49 @@
+<html>
+  <head>
+  </head>
+  <body>
+
+    <p>
+      <em>When replying, type your text above this line.</em>
+    </p>
+
+    <hr>
+
+    <p>
+      <strong>%%ATTRIB__PROJECT_NAME%%:</strong> %%ATTRIB__TITLE%% Issue=%%ATTRIB__NUMBER%% Project=%%ATTRIB__PROJID%% <br>
+      %%ATTRIB__LINK_TO_DETAILS%% <br>
+    </p>
+
+    <table>
+      <tr>
+        <td><strong>Category:</strong> %%CATEGORY%%<br></td>
+        <td><strong>Status:</strong> %%ATTRIB__STATUS%%<br></td>
+      </tr>
+      <tr>
+        <td><strong>Assigned to:</strong> %%ATTRIB__ASSIGNEES%%<br></td>
+        <td><strong>CC:</strong> %%ATTRIB__CC%%</td>
+      </tr>
+      <tr>
+        <td><strong>Contact:</strong> %%FIRST-NAME%% %%LAST-NAME%%</td>
+        <td>%%EMAIL-ADDRESS%%</td>
+      </tr>
+    </table>
+
+    <p>
+      <strong>Internal Note:</strong><br>
+      %%INTERNAL-NOTE%%
+    </p>
+    
+    <p>
+      <strong>Description:</strong><br>
+      %%ATTRIB__ALL_DESCRIPTIONS%%
+    </p>
+
+    <p>
+      <strong>Ticket Changes:</strong><br>
+      %%ATTRIB__LAST_CHANGE%%<br>
+      At <em>%%ATTRIB__LAST_TIME%%</em> on <em>%%ATTRIB__LAST_DATE%%</em>
+    </p>
+
+  </body>
+</html>

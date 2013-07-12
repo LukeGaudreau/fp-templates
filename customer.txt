@@ -1,0 +1,18 @@
+When replying, type your text above this line.
+--------------------------------------------------------------------------------
+%%ATTRIB__PROJECT_NAME%%: %%ATTRIB__TITLE%%
+Category: 	%%CATEGORY%%
+Status: %%ATTRIB__STATUS%%
+
+Description: 
+%%ATTRIB__ALL_DESCRIPTIONS%%
+
+Assigned to: %%ATTRIB__ASSIGNEES%%
+CC:	%%ATTRIB__CC%%
+
+Ticket Changes:
+%%ATTRIB__LAST_CHANGE%%
+At %%ATTRIB__LAST_TIME%% on %%ATTRIB__LAST_DATE%%
+
+
+

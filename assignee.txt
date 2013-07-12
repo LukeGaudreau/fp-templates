@@ -1,0 +1,29 @@
+When replying, type your text above this line.
+
+--------------------------------------------------------------------------------
+
+%%ATTRIB__PROJECT_NAME%%: %%ATTRIB__TITLE%% Issue=%%ATTRIB__NUMBER%% Project=%%ATTRIB__PROJID%% 
+%%ATTRIB__LINK_TO_DETAILS%% 
+
+Category: %%CATEGORY%%
+Status: %%ATTRIB__STATUS%%
+
+Assigned to: %%ATTRIB__ASSIGNEES%%
+CC: %%ATTRIB__CC%%
+
+Contact: %%FIRST-NAME%% %%LAST-NAME%%
+%%EMAIL-ADDRESS%%
+
+Internal Note:
+%%INTERNAL-NOTE%% 
+
+Description:
+%%ATTRIB__ALL_DESCRIPTIONS%%
+
+Ticket Changes:
+%%ATTRIB__LAST_CHANGE%%
+At %%ATTRIB__LAST_TIME%% on %%ATTRIB__LAST_DATE%%
+
+
+
+
